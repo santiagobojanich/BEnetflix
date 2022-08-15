@@ -1,0 +1,75 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 99vw;
+    height: 140vh;
+    justify-content: center;
+    background-color: black;
+}
+
+
+.paginado_box{
+    display: flex;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(226, 169, 62)
+}
+
+.paginado button{
+   background-color: rgb(226, 169, 62);
+   color: white;
+   font-size: 20px;
+   border: 1px solid black;
+   width: 3rem;
+}
+
+.paginado span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.search_box{
+    width: 99vw;
+    display:inline-block;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.createButton{
+    justify-content: center;
+    background-color: black;
+    width: 99vw;
+}
+
+.createButton button{
+    width: 15%;
+    height: 2rem;
+    margin-left: 50rem;
+    background-color: rgb(226, 169, 62);
+    color: white;
+    border: 1px outset black;
+    border-radius: 1px;
+}
+
+.logOut_box{
+    background-color: black; 
+    display: flex;
+    justify-content: flex-end;
+    width: 99vw;
+}
+
+.logOut_box span{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.logOut_box button {
+    background-color:rgb(226, 169, 62);
+    color: white;
+    width: 8vw;
+    height: 2.2rem;
+    border-radius: 3px;
+}

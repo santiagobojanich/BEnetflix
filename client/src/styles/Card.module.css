@@ -1,0 +1,29 @@
+.card_box{
+    width: 30vw;
+    margin-top: 1.5rem;
+    background-color: black;
+} 
+
+ img{
+    height: 60vh;
+    max-width: 20vw;
+    transition: 0.7s;
+    border: 1px solid white;
+ }
+ img:hover{
+    transform: scale(0.9);
+ }
+
+ h2{
+    font-size: 1.8rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(226, 169, 62);
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 1px rgb(209, 199, 199) 
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+
+}
